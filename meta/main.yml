@@ -1,7 +1,8 @@
 ---
 galaxy_info:
   role_name: ubuntu_ppa
-  description: This role sets up PPA properly ready for installing packages from there.
+  description: >-
+    This role sets up PPA properly ready for installing packages from there.
   author: agoloncser
   license: BSD License
   min_ansible_version: 2.9
