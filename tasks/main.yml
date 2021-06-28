@@ -1,0 +1,18 @@
+---
+- name: install ppa dependencies
+  apt:
+    name:
+      - ca-certificates
+      - gnupg
+      - software-properties-common
+      - apt-transport-https
+    update_cache: true
+  become: "yes"
+
+- name: enable ppa
+  apt_repository:
+    repo: "{{ item }}"
+    update_cache: true
+  become: "yes"
+  with_items: "{{ ubuntu_ppa_repositories }}"
+    
