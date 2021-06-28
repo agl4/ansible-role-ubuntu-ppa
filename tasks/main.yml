@@ -15,4 +15,3 @@
     update_cache: true
   become: "yes"
   with_items: "{{ ubuntu_ppa_repositories }}"
-    
