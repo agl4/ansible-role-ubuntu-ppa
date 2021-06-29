@@ -1,4 +1,4 @@
-# Desktop git role
+# Setting up PPA on Ubuntu
 
 This role sets up PPA properly ready for installing packages from there.
 
