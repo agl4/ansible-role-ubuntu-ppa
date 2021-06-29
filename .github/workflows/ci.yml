@@ -16,6 +16,7 @@ jobs:
         molecule_image:
           - agoloncser/docker-ansible-ubuntu2004
           - agoloncser/docker-ansible-ubuntu2010
+          - agoloncser/docker-ansible-ubuntu2104
 
     steps:
       - name: Checkout
