@@ -31,4 +31,4 @@ BSD
 
 ## Author Information
 
-https://github.com/agoloncser
+[@agoloncser](https://github.com/agoloncser)
