@@ -1,5 +1,7 @@
 # Setting up PPA on Ubuntu
 
+[![Molecule testing](https://github.com/agoloncser/ansible-role-ubuntu-ppa/actions/workflows/ci.yml/badge.svg)](https://github.com/agoloncser/ansible-role-ubuntu-ppa/actions/workflows/ci.yml)
+
 This role sets up PPA properly ready for installing packages from there.
 
 ## Requirements
