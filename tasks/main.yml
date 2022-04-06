@@ -1,6 +1,6 @@
 ---
 - name: install ppa dependencies
-  apt:
+  ansible.builtin.apt:
     name:
       - ca-certificates
       - gnupg
@@ -10,7 +10,7 @@
   become: "yes"
 
 - name: enable ppa
-  apt_repository:
+  ansible.builtin.apt_repository:
     repo: "{{ item }}"
     update_cache: true
   become: "yes"
