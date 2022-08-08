@@ -13,7 +13,6 @@ jobs:
         experimental: [false]
         molecule_image:
           - agoloncser/docker-ansible-ubuntu2004
-          - agoloncser/docker-ansible-ubuntu2110
           - agoloncser/docker-ansible-ubuntu2204
 
     steps:
