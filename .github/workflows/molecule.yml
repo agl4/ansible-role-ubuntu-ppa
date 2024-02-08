@@ -5,4 +5,4 @@ on:
   pull_request:
 jobs:
   molecule:
-    uses: agl4/actions/.github/workflows/molecule.yml@main
+    uses: agl4/actions/.github/workflows/molecule-ubuntu-only.yml@main
