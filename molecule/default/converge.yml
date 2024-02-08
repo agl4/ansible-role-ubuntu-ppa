@@ -3,4 +3,4 @@
   hosts: all
   vars:
   roles:
-    - agoloncser.ubuntu_ppa
+    - agl4.ubuntu_ppa

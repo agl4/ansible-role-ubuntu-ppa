@@ -1,6 +1,6 @@
 # Setting up PPA on Ubuntu
 
-[![Molecule testing](https://github.com/agoloncser/ansible-role-ubuntu-ppa/actions/workflows/ci.yml/badge.svg)](https://github.com/agoloncser/ansible-role-ubuntu-ppa/actions/workflows/ci.yml)
+[![Molecule testing](https://github.com/agl4/ansible-role-ubuntu-ppa/actions/workflows/ci.yml/badge.svg)](https://github.com/agl4/ansible-role-ubuntu-ppa/actions/workflows/ci.yml)
 
 This role sets up PPA properly ready for installing packages from there.
 
@@ -25,7 +25,7 @@ None.
         ubuntu_ppa_repositories:
           - ppa:fish-shell/release-3
       roles:
-         - agoloncser.ubuntu_ppa
+         - agl4.ubuntu_ppa
 
 ## License
 
@@ -33,4 +33,4 @@ BSD
 
 ## Author Information
 
-[@agoloncser](https://github.com/agoloncser)
+[@agl4](https://github.com/agl4)
